@@ -1,0 +1,294 @@
+[16:16:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:16:04] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:16:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:04] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:04] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:16:04] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:16:04] [main/INFO]: Reloading ResourceManager: Default
+[16:16:07] [Worker-Main-2/INFO]: Loaded 7 recipes
+[16:16:08] [Worker-Main-2/INFO]: Loaded 927 advancements
+[16:16:12] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:16:12] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[16:16:12] [Server thread/INFO]: Loading properties
+[16:16:12] [Server thread/INFO]: Default game type: SURVIVAL
+[16:16:12] [Server thread/INFO]: Generating keypair
+[16:16:12] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at zg$1.run(SourceFile:95) [server.jar:?]
+[16:16:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:16:13] [Server thread/INFO]: Using epoll channel type
+[16:16:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:16:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:16:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:16:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:16:13] [Server thread/INFO]: Preparing level "seekwind_world"
+[16:16:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:16:19] [Server thread/INFO]: Preparing spawn area: 0%
+[16:16:19] [Server thread/INFO]: Preparing spawn area: 32%
+[16:16:21] [Server thread/INFO]: Time elapsed: 6784 ms
+[16:16:21] [Server thread/INFO]: Done (7.082s)! For help, type "help"
+[16:16:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[16:17:34] [Server thread/INFO]: 超帅的史蒂夫[/115.202.58.95:58959] logged in with entity id 179 at (-27.5, 64.0, -118.5)
+[16:17:35] [Server thread/INFO]: 超帅的史蒂夫 joined the game
+[16:17:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[16:17:56] [Server thread/INFO]: SeekWind[/39.181.251.96:4079] logged in with entity id 200 at (-579.8843734969448, 63.0, 442.8421637581364)
+[16:17:57] [Server thread/INFO]: SeekWind joined the game
+[16:17:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
+[16:18:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16477ms or 329 ticks behind
+[16:18:39] [Server thread/INFO]: <超帅的史蒂夫> tp seekwind
+[16:18:48] [Server thread/INFO]: [超帅的史蒂夫: Teleported 超帅的史蒂夫 to SeekWind]
+[16:18:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3912ms or 78 ticks behind
+[16:19:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
+[16:20:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[16:20:10] [Server thread/INFO]: <超帅的史蒂夫> 等会我加载一下
+[16:20:28] [Server thread/INFO]: <超帅的史蒂夫> 这附近很不错
+[16:20:52] [Server thread/INFO]: <SeekWind> 加载地图不费劲，加载生物很费劲，所以渲染距离近了，就不卡了
+[16:21:37] [Server thread/INFO]: <SeekWind> 地图是静止的，放在内存里，一般不需要计算
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.988822086413165,0.0,4.845718549862909
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.099815662160381,0.0,5.15443081614842
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.178229036124321,0.0,5.4660125440110505
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.2246325459314,0.0,5.77830668404431
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.239947947435212,0.0,6.089377466730639
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.225355489909361,0.0,6.397530364639692
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.182213677459458,0.0,6.701312843840128
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.11200140411529,0.0,6.9995133395744915
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -9.016264506373773,0.0,7.291145064402258
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.896576496871603,0.0,7.5754298224781
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.754502883832629,0.0,7.851771208549394
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.591582745286814,0.0,8.119742277598334
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.408995879894064,0.0,8.378433306433408
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -8.207697864867441,0.0,8.626523581825268
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -7.988543720335656,0.0,8.862333884007626
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -7.752578471963261,0.0,9.084572244491028
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -7.500959752742801,0.0,9.29229255920609
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -7.234898430133853,0.0,9.484848181707434
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -6.9556153815119615,0.0,9.66185132563453
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -6.664310154413215,0.0,9.823139839642636
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -6.362137845774669,0.0,9.968732839480595
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -6.050194264893435,0.0,10.098807889739874
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -5.729506450666577,0.0,10.21365996401289
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -5.4010271285137605,0.0,10.313686644130257
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -5.065633584735679,0.0,10.399355131978382
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -4.724127472999498,0.0,10.471191366391622
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -4.377237002010588,0.0,10.529762409436216
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -4.025619902794006,0.0,10.575664322384
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! -3.6698679544419974,0.0,10.609507462674287
+[16:21:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5104ms or 102 ticks behind
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 8.117352706446582,0.0,5.976313738945009
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 8.492369614014024,0.0,5.928209461424558
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 8.868263358584954,0.0,5.87364229669538
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 9.244886282989683,0.0,5.813056319287057
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 9.622111135867726,0.0,5.746873523793056
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 9.99982821525009,0.0,5.675492281497554
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 10.377942700921267,0.0,5.599285971828635
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 10.756373333882493,0.0,5.518605434978326
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 11.135051212966118,0.0,5.433781177398146
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 11.51391751597248,0.0,5.345121713410663
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 11.892922577452737,0.0,5.252915738346246
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 12.272023859172805,0.0,5.157430441962788
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 12.651186492813395,0.0,5.058917279985849
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 13.030381373041564,0.0,4.957609892071105
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 13.409584614737923,0.0,4.853725866647892
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 13.788775846332555,0.0,4.747464701777062
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 14.16793909897342,0.0,4.639013241689781
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 14.547062399780316,0.0,4.528546930063385
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 14.926136161529485,0.0,4.416227315125184
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 15.305151711015242,0.0,4.302199804245788
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 15.684103689869971,0.0,4.186602533027894
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 16.06298849373161,0.0,4.069563459393976
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 16.44180410802028,0.0,3.9512013804231856
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 16.82054870098864,0.0,3.8316232181407486
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 17.19922186085978,0.0,3.7109288326619208
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 17.577824457555835,0.0,3.5892117265210572
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 17.956357266557006,0.0,3.4665560538592217
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 18.334822237492517,0.0,3.3430411809031284
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 18.713221117577632,0.0,3.2187385372545805
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 19.09155547185628,0.0,3.0937124123477133
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 19.46982797174087,0.0,2.9680242895165065
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 19.848041014052342,0.0,2.841729505622652
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 20.226196752203577,0.0,2.714877865702988
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 20.604298387139806,0.0,2.587517813409022
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 20.982348799711872,0.0,2.459692949888563
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 21.322594162013047,0.0,2.344650575767787
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 21.628814979972503,0.0,2.2411124418018744
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 21.90441370883491,0.0,2.147928123701149
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 22.15245255823993,0.0,2.0640622396321078
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 22.375687516791004,0.0,1.9885829459694833
+[16:21:57] [Server thread/WARN]: Boat (vehicle of 超帅的史蒂夫) moved too quickly! 22.57659897416488,0.0,1.9206515834727043
+[16:22:08] [Server thread/INFO]: <SeekWind> W方向
+[16:22:23] [Server thread/INFO]: <SeekWind> 一堆海带
+[16:23:53] [Server thread/INFO]: <SeekWind> go
+[16:23:59] [Server thread/INFO]: <SeekWind> where
+[16:24:04] [Server thread/INFO]: <超帅的史蒂夫> 就这里找个垂直的墙壁安家吧
+[16:24:07] [Server thread/INFO]: <SeekWind> ok
+[16:24:14] [Server thread/INFO]: <SeekWind> 我一会儿要吃饭了
+[16:24:21] [Server thread/INFO]: <超帅的史蒂夫> 那我们分开找
+[16:24:58] [Server thread/INFO]: <超帅的史蒂夫> 最好是两个对立的垂直墙壁，这样我们的家两边墙上都可以开洞
+[16:25:28] [Server thread/INFO]: <SeekWind> North
+[16:25:43] [Server thread/INFO]: <SeekWind> 北方有海底峡谷
+[16:26:00] [Server thread/INFO]: <SeekWind> 过头了
+[16:26:10] [Server thread/INFO]: <SeekWind> 你看地图
+[16:27:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3292ms or 65 ticks behind
+[16:27:33] [Server thread/INFO]: <超帅的史蒂夫> 主要是这里的地形不垂直
+[16:27:52] [Server thread/INFO]: <SeekWind> go
+[16:28:48] [Server thread/INFO]: <超帅的史蒂夫> 标记一下
+[16:28:49] [Server thread/INFO]: <SeekWind> cell
+[16:29:10] [Server thread/INFO]: <超帅的史蒂夫> 这里是遗迹船
+[16:29:28] [Server thread/INFO]: <SeekWind> xaero-waypoint:遗迹船:船:-1115:62:463:5:false:0:Internal-overworld-waypoints
+[16:32:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2327ms or 46 ticks behind
+[16:32:10] [Server thread/INFO]: <SeekWind> go
+[16:32:24] [Server thread/INFO]: <超帅的史蒂夫> kan bu qing
+[16:32:31] [Server thread/INFO]: <SeekWind> 什么时候复习
+[16:32:55] [Server thread/INFO]: <超帅的史蒂夫> 我很随缘的
+[16:33:59] [Server thread/INFO]: <超帅的史蒂夫> 就这吧
+[16:34:03] [Server thread/INFO]: <SeekWind> OK
+[16:34:28] [Server thread/INFO]: <SeekWind> printf("%s\n", "HelloWorld");
+[16:35:25] [Server thread/INFO]: SeekWind drowned
+[16:37:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2414ms or 48 ticks behind
+[16:37:54] [Server thread/INFO]: <超帅的史蒂夫> 你tp过来吧
+[16:38:18] [Server thread/INFO]: [SeekWind: Teleported SeekWind to SeekWind]
+[16:38:33] [Server thread/INFO]: [SeekWind: Teleported SeekWind to 超帅的史蒂夫]
+[16:38:43] [Server thread/INFO]: <超帅的史蒂夫> md吓死我了
+[16:38:54] [Server thread/INFO]: <SeekWind> 臭屎，你的名字还要加双引号
+[16:39:08] [Server thread/INFO]: <SeekWind> 幸亏爷聪明
+[16:40:04] [Server thread/INFO]: <SeekWind> 👴👴👴
+[16:41:26] [Server thread/INFO]: <超帅的史蒂夫> xaero-waypoint:海底的家:家1:-1204:22:476:6:false:0:Internal-overworld-waypoints
+[16:42:04] [Server thread/INFO]: <SeekWind> 直接TM开始海底种树
+[16:42:17] [Server thread/INFO]: <超帅的史蒂夫> 种隔壁吧
+[16:42:47] [Server thread/INFO]: <SeekWind> 我没树苗
+[16:45:05] [Server thread/INFO]: 超帅的史蒂夫 has made the advancement [Isn't It Iron Pick]
+[16:45:10] [Server thread/INFO]: SeekWind has made the advancement [Acquire Hardware]
+[16:45:43] [Server thread/INFO]: <超帅的史蒂夫> 害怕
+[16:46:07] [Server thread/INFO]: <SeekWind> 女巫现在王子捅不死了
+[16:46:45] [Server thread/INFO]: <SeekWind> 这个是客厅
+[16:47:01] [Server thread/INFO]: <SeekWind> 干脆造一个吾悦广场
+[16:47:47] [Server thread/INFO]: <超帅的史蒂夫> 种树要多高
+[16:47:58] [Server thread/INFO]: <SeekWind> 不知道
+[16:47:58] [Server thread/INFO]: <超帅的史蒂夫> 你看对面够吗
+[16:48:30] [Server thread/INFO]: <SeekWind> 水里面怎么种
+[16:48:43] [Server thread/INFO]: <超帅的史蒂夫> 有泥土就行
+[16:48:58] [Server thread/INFO]: <超帅的史蒂夫> 再插上火把
+[16:49:08] [Server thread/INFO]: <超帅的史蒂夫> 只要有一定亮度就行
+[16:49:16] [Server thread/INFO]: <超帅的史蒂夫> 没事门开着他们进不来的
+[16:49:48] [Server thread/INFO]: <超帅的史蒂夫> 还有food吗
+[16:49:53] [Server thread/INFO]: <SeekWind> 无
+[16:52:37] [Server thread/INFO]: SeekWind has made the advancement [Isn't It Iron Pick]
+[16:56:17] [Server thread/INFO]: <超帅的史蒂夫> help
+[16:59:10] [Server thread/INFO]: <超帅的史蒂夫> 这边种树吧
+[17:00:25] [Server thread/INFO]: <超帅的史蒂夫> 你不会打算在大厅里面挖矿吧
+[17:00:32] [Server thread/INFO]: <SeekWind> ?
+[17:00:42] [Server thread/INFO]: <SeekWind> 怎么可能
+[17:05:42] [Server thread/INFO]: <SeekWind> 泥土
+[17:05:48] [Server thread/INFO]: <SeekWind> 挖去种树
+[17:06:01] [Server thread/INFO]: <超帅的史蒂夫> 拿对面去种树
+[17:06:03] [Server thread/INFO]: <SeekWind> OK
+[17:06:08] [Server thread/INFO]: <超帅的史蒂夫> 还有铁没
+[17:09:48] [Server thread/INFO]: <超帅的史蒂夫> 这里中山门
+[17:09:54] [Server thread/INFO]: <超帅的史蒂夫> 种什么
+[17:10:07] [Server thread/INFO]: <SeekWind> 不知道
+[17:10:24] [Server thread/INFO]: <超帅的史蒂夫> 树得格一格
+[17:10:47] [Server thread/INFO]: <SeekWind> 泥土是可以刷的
+[17:11:16] [Server thread/INFO]: <SeekWind> 干饭了
+[17:11:17] [Server thread/INFO]: <超帅的史蒂夫> 先挖吧
+[17:11:20] [Server thread/INFO]: SeekWind lost connection: Disconnected
+[17:11:20] [Server thread/INFO]: SeekWind left the game
+[17:25:48] [Server thread/INFO]: SeekWind[/39.181.251.96:3150] logged in with entity id 12993 at (-1204.1961698150749, 18.0, 465.5038960722197)
+[17:25:48] [Server thread/INFO]: SeekWind joined the game
+[17:26:03] [Server thread/INFO]: <SeekWind> ?
+[17:26:08] [Server thread/INFO]: <SeekWind> 我树苗呢？
+[17:26:32] [Server thread/INFO]: <超帅的史蒂夫> 我身上
+[17:26:46] [Server thread/INFO]: <超帅的史蒂夫> 我挖了，我怕他现在长出来挡路
+[17:26:49] [Server thread/INFO]: <SeekWind> 泥土+砂砾可以合成一个东西
+[17:27:16] [Server thread/INFO]: <SeekWind> 这个东西用锄头锄一下，挖下来，又是泥土了
+[17:27:33] [Server thread/INFO]: <SeekWind> 这时泥土数量翻倍了
+[17:28:38] [Server thread/INFO]: <SeekWind> 这里交给本设计师了
+[17:32:54] [Server thread/INFO]: <SeekWind> 我昨天晚上梦到我谈恋爱了555
+[17:33:46] [Server thread/INFO]: <超帅的史蒂夫> 针不戳
+[17:36:24] [Server thread/INFO]: <超帅的史蒂夫> help
+[17:36:28] [Server thread/INFO]: <超帅的史蒂夫> help
+[17:36:36] [Server thread/INFO]: <超帅的史蒂夫> help!!!!
+[17:36:39] [Server thread/INFO]: <SeekWind> 打不过
+[17:36:47] [Server thread/INFO]: <SeekWind> 末影人在你这
+[17:36:55] [Server thread/INFO]: <SeekWind> 别看他
+[17:37:06] [Server thread/INFO]: <SeekWind> 他两三刀你就死了
+[17:37:32] [Server thread/INFO]: <SeekWind> 有
+[17:37:48] [Server thread/INFO]: <SeekWind> 死亡不掉落，也不用慌
+[17:37:56] [Server thread/INFO]: <SeekWind> 就是经验会没了
+[17:39:31] [Server thread/INFO]: <SeekWind> 甘蔗种哪
+[17:39:50] [Server thread/INFO]: <超帅的史蒂夫> 扩张吧
+[17:40:01] [Server thread/INFO]: <超帅的史蒂夫> 往这边
+[17:42:21] [Server thread/INFO]: <SeekWind> 要饿死了
+[17:42:30] [Server thread/INFO]: <超帅的史蒂夫> 我也
+[17:42:33] [Server thread/INFO]: <SeekWind> 拷海苔
+[17:51:18] [Server thread/INFO]: <超帅的史蒂夫> 海洋版上升水电梯怎么做
+[17:51:47] [Server thread/INFO]: <SeekWind> 那你需要一个横截面为9*9的海底通地面的隧道
+[17:52:12] [Server thread/INFO]: <SeekWind> 不方便
+[17:52:37] [Server thread/INFO]: <超帅的史蒂夫> 我记得是只要一个什么方块，就可以海底弹射起步
+[17:52:59] [Server thread/INFO]: <超帅的史蒂夫> 我先吃饭
+[17:53:02] [Server thread/INFO]: <SeekWind> ok
+[17:53:03] [Server thread/INFO]: 超帅的史蒂夫 lost connection: Disconnected
+[17:53:03] [Server thread/INFO]: 超帅的史蒂夫 left the game
+[18:20:10] [Server thread/INFO]: 超帅的史蒂夫[/115.202.58.95:59361] logged in with entity id 18695 at (-1199.2740381787735, 18.0, 465.8736941260636)
+[18:20:10] [Server thread/INFO]: 超帅的史蒂夫 joined the game
+[18:24:56] [Server thread/INFO]: <SeekWind> 爷没铁
+[18:29:34] [Server thread/INFO]: <SeekWind> 没铁=没水桶
+[18:30:51] [Server thread/INFO]: <SeekWind> 在哪开矿？
+[18:31:34] [Server thread/INFO]: <超帅的史蒂夫> 换个地方
+[18:32:02] [Server thread/INFO]: <超帅的史蒂夫> 你要挖矿的话我们去刚才那个 遗迹看看
+[18:32:36] [Server thread/INFO]: <超帅的史蒂夫> 有food吗
+[18:33:12] [Server thread/INFO]: [SeekWind: Teleported SeekWind to -315.5, 70.0, 470.5]
+[18:33:14] [Server thread/INFO]: <超帅的史蒂夫> 太矮了长不高的
+[18:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[18:34:15] [Server thread/INFO]: [SeekWind: Teleported SeekWind to -1203.5, 22.0, 476.5]
+[18:34:26] [Server thread/INFO]: <SeekWind> 天黑了，白天再去
+[18:34:26] [Server thread/INFO]: [超帅的史蒂夫: Teleported 超帅的史蒂夫 to SeekWind]
+[18:35:32] [Server thread/INFO]: <超帅的史蒂夫> 等会找个地方挖矿，尽量去到下界，这样我可以造传送门
+[18:38:07] [Server thread/INFO]: [SeekWind: Set the time to 6000]
+[18:38:20] [Server thread/INFO]: [SeekWind: Teleported SeekWind to -315.5, 70.0, 470.5]
+[18:38:20] [Server thread/WARN]: SeekWind moved too quickly! 883.6327969138458,52.0,8.7242819453989
+[18:38:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2579ms or 51 ticks behind
+[18:38:34] [Server thread/INFO]: <超帅的史蒂夫> 我想知道怎么通过方块弹射上到岸上
+[18:38:46] [Server thread/INFO]: <SeekWind> 不知道
+[18:39:39] [Server thread/INFO]: [超帅的史蒂夫: Teleported 超帅的史蒂夫 to SeekWind]
+[18:40:09] [Server thread/INFO]: SeekWind has made the advancement [Fishy Business]
+[18:40:16] [Server thread/INFO]: 超帅的史蒂夫 has made the advancement [Fishy Business]
+[18:40:24] [Server thread/INFO]: <SeekWind> ?
+[18:42:47] [Server thread/INFO]: <超帅的史蒂夫> 火把插右边
+[18:44:05] [Server thread/INFO]: [SeekWind: Teleported SeekWind to -1203.5, 22.0, 476.5]
+[18:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2424ms or 48 ticks behind
+[18:44:17] [Server thread/INFO]: <SeekWind> 我去公园锻炼了
+[18:44:23] [Server thread/INFO]: <SeekWind> 一会儿再说
+[18:44:33] [Server thread/INFO]: <SeekWind> (^_^)
+[18:44:35] [Server thread/INFO]: SeekWind lost connection: Disconnected
+[18:44:35] [Server thread/INFO]: SeekWind left the game
+[18:47:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2401ms or 48 ticks behind
+[18:49:55] [Server thread/INFO]: [超帅的史蒂夫: Teleported 超帅的史蒂夫 to -1203.5, 22.0, 476.5]
+[19:06:18] [Server thread/INFO]: 超帅的史蒂夫 lost connection: Disconnected
+[19:06:18] [Server thread/INFO]: 超帅的史蒂夫 left the game
+[19:35:20] [Server thread/INFO]: SeekWind[/39.181.251.96:3114] logged in with entity id 25017 at (-1203.5, 22.0, 476.5)
+[19:35:20] [Server thread/INFO]: SeekWind joined the game
+[19:38:16] [Server thread/INFO]: [SeekWind: Set the time to 6000]
+[19:38:35] [Server thread/INFO]: [SeekWind: Teleported SeekWind to -315.5, 70.0, 470.5]
+[19:40:53] [Server thread/INFO]: SeekWind lost connection: Disconnected
+[19:40:53] [Server thread/INFO]: SeekWind left the game
