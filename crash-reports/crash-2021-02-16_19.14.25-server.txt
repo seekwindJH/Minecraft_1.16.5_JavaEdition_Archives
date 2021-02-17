@@ -1,0 +1,58 @@
+---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 2/16/21, 7:14 PM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at it.unimi.dsi.fastutil.longs.Long2ObjectLinkedOpenHashMap.clone(Long2ObjectLinkedOpenHashMap.java:1805)
+	at zs.b(SourceFile:465)
+	at aae.o(SourceFile:285)
+	at aae.c(SourceFile:223)
+	at aae.a(SourceFile:140)
+	at brx.a(SourceFile:209)
+	at brz.a(SourceFile:128)
+	at cla.a(SourceFile:192)
+	at cfy.a(SourceFile:206)
+	at aag.a(SourceFile:1145)
+	at dae.a(SourceFile:72)
+	at dai.b(SourceFile:31)
+	at dai.apply(SourceFile:20)
+	at daj.a(SourceFile:14)
+	at daj$$Lambda$3635/0x00000001009e2840.accept(Unknown Source)
+	at czn.a(SourceFile:33)
+	at czs$1.a(SourceFile:59)
+	at cyx.b(SourceFile:71)
+	at cyx.a(SourceFile:95)
+	at cyy.a(SourceFile:73)
+	at cyy.b(SourceFile:82)
+	at cyy.a(SourceFile:87)
+	at cyy.a(SourceFile:106)
+	at cdd.d(SourceFile:81)
+	at cdd.createMenu(SourceFile:159)
+	at aah.a(SourceFile:956)
+	at bve.a(SourceFile:205)
+	at ceg$a.a(SourceFile:894)
+	at aai.a(SourceFile:328)
+	at aay.a(SourceFile:1040)
+	at ts.a(SourceFile:36)
+	at ts.a(SourceFile:10)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 5.4.0-47-generic
+	Java Version: 11.0.9, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 202952 bytes (0 MB) / 518979584 bytes (494 MB) up to 518979584 bytes (494 MB)
+	CPUs: 1
+	JVM Flags: 2 total; -Xms256m -Xmx512m
+	Player Count: 1 / 20; [aah['超帅的史蒂夫'/38157, l='ServerLevel[seekwind_world]', x=-1034.49, y=55.00, z=270.19]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
